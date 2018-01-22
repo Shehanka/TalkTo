@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootLogin" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #3498db;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.chamodshehanka.talkToClient.ui.controller.LoginUIController">
+   <children>
+      <ImageView fitHeight="279.0" fitWidth="266.0" layoutX="331.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/talktoLogo.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="418.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign In">
+         <font>
+            <Font name="Calibri Light" size="35.0" />
+         </font>
+      </Text>
+      <JFXButton layoutX="343.0" layoutY="266.0" prefHeight="35.0" prefWidth="250.0" style="-fx-background-radius: 20; -fx-background-color: #007CB3;" text="TalkTo Account" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="343.0" layoutY="319.0" prefHeight="35.0" prefWidth="250.0" style="-fx-background-radius: 20; -fx-background-color: #007CB3;" text="Email Account" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="359.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-Windows8%20Filled-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="416.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-Linux%20Filled-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="483.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-Apple%20Filled-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="544.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/icons8-Android%20OS%20Filled-50.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="540.0" prefHeight="160.0" prefWidth="900.0" style="-fx-background-color: #007CB3;">
+         <children>
+            <JFXButton layoutX="350.0" layoutY="21.0" prefHeight="35.0" prefWidth="250.0" style="-fx-background-radius: 20; -fx-background-color: #007CB3;" text="Create Account &gt;" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="384.0" layoutY="493.0" onAction="#learnMoreAboutTalkTo" text="Learn more about TalkTo" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
